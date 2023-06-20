@@ -5,7 +5,7 @@ type Props = {}
 export default function Navbar({}: Props) {
   return (
     <div>
-        <nav className="bg-white border-gray-200 bg-purple-500">
+        <nav className="border-gray-200 bg-purple-500">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link href="/" className="flex items-center">
               <Image

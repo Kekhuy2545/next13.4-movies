@@ -8,9 +8,9 @@ export default async function Home() {
 
 
   return (
-    <main className="flex flex-col items-center justify-between p-24">
+    <main>
       <h1 className="text-2xl">โปรแกรมแสดงโปสเตอร์หนัง</h1>
-      <div>
+      <div className="grid gap-2 grid-cols-3">
         {res.results.map((movie: any) =>(
         <Movie
         key={movie.id}

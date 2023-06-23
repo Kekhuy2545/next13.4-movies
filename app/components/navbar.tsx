@@ -14,7 +14,7 @@ export default function Navbar({}: Props) {
                 height={120}
                 alt="POSPOS Logo"
               />
-              <span className="ml-7 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="ml-7 self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
                 Poster Movies
               </span>
             </Link>

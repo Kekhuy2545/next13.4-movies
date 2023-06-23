@@ -1,9 +1,9 @@
 import Movie from "./components/movie"
 
 export default async function Home() {
-  // const key = process.env.NEXT_PUBLIC_API_KEY
+  const key = process.env.NEXT_PUBLIC_API_KEY
 
-  const url = `https://api.themoviedb.org/3/movie/popular?api_key=095fc92a9340dcb67bdd53448e1eda21`
+  const url = `https://api.themoviedb.org/3/movie/popular?api_key=${key}`
   const data = await fetch(url)
   const res = await data.json()
   await delay(2000);
